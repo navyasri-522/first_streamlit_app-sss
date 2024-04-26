@@ -1,0 +1,26 @@
+What are the features of Snowflake? 
+What is the schema in Snowflake?
+What kind of SQL does Snowflake use?
+What ETL tools do you use with Snowflake?
+What type of database is Snowflake?
+What is Snowflake Time Travel?
+What is SnowPipe?
+Is Snowflake OLTP or OLAP?
+How to create a Snowflake task?
+How is Snowflake different from Redshift?
+
+
+What data compression techniques does Snowflake use?
+Do you have any suggestions on how to minimize Snowflake's bills?
+What purpose do Snowflake Connectors serve?
+How does Snowflake's vertical and horizontal scaling differ from one another?
+How can you prevent Snowflake from caching the results of your queries?
+Imagine if a Snowflake table is suddenly dropped. Can you determine who dropped it and when?
+
+Let's say you need to generate a global view by performing union operations on 15 to 20 views. 
+There is a column in every view that identifies the source table. The global view will retrieve data from
+the underlying table when you query it for a specific source. 
+However, if you retrieve data from a global view for two sources, 
+will the view scan the micro partitions of all 20 tables or just the micro partitions of those two sources?
+
+https://www.projectpro.io/article/snowflake-interview-questions-and-answers/729
